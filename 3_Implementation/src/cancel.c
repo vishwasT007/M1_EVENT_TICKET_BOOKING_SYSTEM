@@ -14,8 +14,8 @@ void cancelticket(int *array)
 	  		{
 					 stop=5;
 					 system("cls");
-					 printf("%s your ticket is %d cancelled",person[i].name,person[i].seatnum);
-					 array[person[i].seatnum]=0;
+					 printf("%s your ticket is %d cancelled",person[i].name,person[i].seat_number);
+					 array[person[i].seat_number]=0;
 					 i=300;
 	  		}
 	  }

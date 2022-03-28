@@ -8,10 +8,10 @@
 int main()
 {
     int count = 0;
-	int **seatnum,choice,price=500,selection,i;
-	seatnum=(int **)calloc(101,sizeof(int *));
+	int **seat_number,choice,price=500,selection,i;
+	seat_number=(int **)calloc(101,sizeof(int *));
 	for (i=0;i<3;i++)
-		*(seatnum+i)=(int *)calloc(101,sizeof(int ));
+		*(seat_number+i)=(int *)calloc(101,sizeof(int ));
 	int x;
 	char pass[10],pak[10]="user";
 while(x!=3)
@@ -59,7 +59,7 @@ while(x!=3)
                     scanf("%s",&pass);
                     if (strcmp(pass,pak)==0){
                         selection=ListofEvents();
-                        reserveticket(seatnum[selection-1],price,selection);
+                        reserveticket(seat_number[selection-1],price,selection);
                         count++;
                     }
                     else
@@ -71,7 +71,7 @@ while(x!=3)
                     scanf("%s",&pass);
                     if (strcmp(pass,pak)==0){
                         selection=event_select();
-                        cancelticket(seatnum[selection-1]);
+                        cancelticket(seat_number[selection-1]);
                     }
                     else
                     printf("Invalid Password!\n");

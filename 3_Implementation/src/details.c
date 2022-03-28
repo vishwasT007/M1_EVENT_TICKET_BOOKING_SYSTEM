@@ -14,7 +14,7 @@ void details(void)
 	{
 		for (i=0;i<count;i++)
 		{
-			printf("seat no: %d is booked by %s booking id is %d\n",person[i].seatnum,person[i].name,person[i].id);
+			printf("seat no: %d is booked by %s booking id is %d\n",person[i].seat_number,person[i].name,person[i].id);
 		}
 	}
 	else
