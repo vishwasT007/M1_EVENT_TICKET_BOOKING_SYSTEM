@@ -37,7 +37,7 @@ Event Ticket Booking System have few inbuilt features like
     * Exit System.
    
 ## SWOT ANALYSIS
-![SWOT Analysis](https://github.com/)
+![SWOT Analysis](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/blob/main/1_Requirements/Screenshot%202022-03-28%20at%201.38.16%20PM.png?raw=true)
 
 ### 4W&#39;s and 1&#39;H
 
