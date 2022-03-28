@@ -1,9 +1,5 @@
 # SDLC Activity Based Learning
 
-![Banner]()
-
-
-
 ![Code_Quality_Grade]()
 [![Codacy Badge]()]()
 [![cppcheck-action]()]()
