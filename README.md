@@ -2,12 +2,10 @@
 ## EVENT TICKET BOOKING SYSTEM
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/726202e5b994408193778e92f109e184)](https://www.codacy.com/gh/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM&amp;utm_campaign=Badge_Grade)
-<!-- ![Code_Quality_Grade]() -->
-<!-- [![Codacy Badge]()]() -->
 [![cppcheck-action](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/cppCheck.yml/badge.svg?branch=main)](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/cppCheck.yml)
 [![C/C++ CI](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/Cbuild.yml/badge.svg?branch=main)](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/Cbuild.yml)
-[![Unit testing]()]()
-[![Contribution Check - Git Inspector]()]()
+[![Unit testing](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/unittesting.yml/badge.svg)](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/unittesting.yml)
+[![Contribution Check - Git Inspector](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/gitinspector.yml)
 
 ## Folder Structure
 Folder             | Description
