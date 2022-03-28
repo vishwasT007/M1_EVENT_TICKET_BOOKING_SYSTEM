@@ -5,7 +5,7 @@
 <!-- ![Code_Quality_Grade]() -->
 <!-- [![Codacy Badge]()]() -->
 [![cppcheck-action]()]()
-[![C/C++ CI]()]()
+[![C/C++ CI](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/Cbuild.yml/badge.svg?branch=main)](https://github.com/vishwasT007/M1_EVENT_TICKET_BOOKING_SYSTEM/actions/workflows/Cbuild.yml)
 [![Unit testing]()]()
 [![Contribution Check - Git Inspector]()]()
 
