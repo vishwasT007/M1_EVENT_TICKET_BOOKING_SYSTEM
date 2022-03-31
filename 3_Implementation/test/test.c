@@ -14,7 +14,7 @@ void tearDown()
 void test_changepriceticket(void)
 {
     int price1=800;
-    TEST_ASSERT_EQUAL(800,changepriceticket(price1));
+    TEST_ASSERT_EQUAL(800,change_Price_Ticket(price1));
     
 }
 
