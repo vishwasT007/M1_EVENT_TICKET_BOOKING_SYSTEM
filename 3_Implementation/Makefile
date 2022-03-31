@@ -58,8 +58,11 @@ run_test: build_test
 
 analyze: test memcheck staticcheck coverage sanitize_check
 
-staticcheck:
+cppcheck:
 	cppcheck --enable=all -iunity .
+
+	# staticcheck:
+	# cppcheck --enable=all -iunity .
 
 memcheck:
 	valgrind ./$(TEST_OUTPUT)
