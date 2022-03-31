@@ -21,7 +21,7 @@ void reserve_Ticket(int *array, int price, int selection)
 	printf("Please enter your name: ");
 	scanf("%s",person[count].name);
 	printf("Please enter your phone number: ");
-	scanf("%u", &person[count].mobile_number);
+	scanf("%p", &person[count].mobile_number);
 	printf("Please select seat number you want? ");
 	scanf("%d", &j);
 	if (j > 100 || j < 1)
