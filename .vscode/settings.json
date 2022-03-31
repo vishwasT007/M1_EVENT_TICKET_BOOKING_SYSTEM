@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "__config": "c",
+        "memory": "c",
+        "vector": "c"
+    }
+}
