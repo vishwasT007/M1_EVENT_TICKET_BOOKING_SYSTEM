@@ -14,12 +14,6 @@ src/tic3.c
 
 
 
-# TEST_SRC =src/changepriceticket.c\
-TEST_SRC =src/price.c\
-src/test.c\
-unity/unity.c 
-#
-
 
 TEST_SRC =src/price.c\
 src/../test/test.c\
@@ -60,9 +54,6 @@ analyze: test memcheck staticcheck coverage sanitize_check
 
 staticcheck:
 	cppcheck --enable=all -iunity .
-
-	# staticcheck:
-	# cppcheck --enable=all -iunity .
 
 memcheck:
 	valgrind ./$(TEST_OUTPUT)
