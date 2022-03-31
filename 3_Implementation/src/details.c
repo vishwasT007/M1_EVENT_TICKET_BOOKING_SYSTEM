@@ -3,7 +3,7 @@
 #include<string.h>
 
 struct event_details person[300];
-void details_(void)
+void details(void)
 {
 	int i;
 	int count =0;

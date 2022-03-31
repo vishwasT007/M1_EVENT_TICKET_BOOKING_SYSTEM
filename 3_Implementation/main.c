@@ -32,7 +32,7 @@ while(x!=3)
                 goto b;
 				break;
             case 2:
-                details_();
+                details();
                 goto b;
 				break;
             case 3:

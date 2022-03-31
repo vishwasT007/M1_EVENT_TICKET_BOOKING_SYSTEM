@@ -39,7 +39,7 @@ int enter_choice(void);
  * @brief login for admin
  * 
  */
-void details_(void);
+void details(void);
 /**
  * @brief Displays the Event available to purchase a ticket
  */
