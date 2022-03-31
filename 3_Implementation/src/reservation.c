@@ -19,7 +19,7 @@ void reserve_Ticket(int *array, int price, int selection)
 			printf("\n\n");
 	}
 	printf("Please enter your name: ");
-	scanf(" %19[^\n]%*[^\n]", &person[count].name);
+	scanf(" %19s", &person[count].name);
 	printf("Please enter your phone number: ");
 	scanf("%u", &person[count].mobile_number);
 	printf("Please select seat number you want? ");
