@@ -58,7 +58,7 @@ run_test: build_test
 
 analyze: test memcheck staticcheck coverage sanitize_check
 
-cppcheck:
+staticcheck:
 	cppcheck --enable=all -iunity .
 
 	# staticcheck:
