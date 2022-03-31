@@ -13,6 +13,6 @@ jobs:
     - name: install cppcheck
       run: sudo apt-get -y install cppcheck
     - name: Cppcheck code
-      run: staticcheck 3_Implementation
+      run: cppcheck 3_Implementation
 
 
