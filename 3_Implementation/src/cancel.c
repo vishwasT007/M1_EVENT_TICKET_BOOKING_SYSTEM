@@ -3,22 +3,22 @@
 #include<string.h>
 
 struct event_details person[300];
-void cancelticket(int *array)
+void cancel_ticket(int *array)
 {
-      int Cseat,i,stop;
+      int Choiceseat,i,hold;
 	  printf("Please enter ID number of ticket: ");
-	  scanf("%d",&Cseat);
+	  scanf("%d",&Choiceseat);
 	  for (i=0;i<300;i++)
 	  {
-	  		if(Cseat==person[i].id)
+	  		if(Choiceseat==person[i].id)
 	  		{
-					 stop=5;
+					 hold=5;
 					 system("cls");
 					 printf("%s your ticket is %d cancelled",person[i].name,person[i].seat_number);
 					 array[person[i].seat_number]=0;
 					 i=300;
 	  		}
 	  }
-	  if (stop!=5)
+	  if (hold!=5)
 	  		printf("Ticket ID number is incorrect please enter right one to cancel ticket: \n");
 }

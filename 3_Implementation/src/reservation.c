@@ -3,7 +3,7 @@
 #include <string.h>
 
 struct event_details person[300];
-void reserveticket(int *array, int price, int selection)
+void reserve_Ticket(int *array, int price, int selection)
 {
 	int i, j;
 	int count = 0;
@@ -39,10 +39,10 @@ void reserveticket(int *array, int price, int selection)
 		array[j] = 1;
 	person[count].seat_number = j;
 	if (selection == 1)
-		show1(j, person[count].name, id1, price);
+		event_show1(j, person[count].name, id1, price);
 	else if (selection == 2)
-		show2(j, person[count].name, id1, price);
+		event_show2(j, person[count].name, id1, price);
 	else
-		show3(j, person[count].name, id1, price);
+		event_show3(j, person[count].name, id1, price);
 	id1--;
 }

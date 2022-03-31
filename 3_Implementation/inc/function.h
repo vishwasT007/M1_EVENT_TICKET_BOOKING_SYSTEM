@@ -30,16 +30,16 @@
 
 
 /**
- * @brief login withrespective to customer or admin
+ * @brief login with respective to customer or admin
  */
 
 
-int enterchoice(void);
+int enter_choice(void);
 /**
  * @brief login for admin
  * 
  */
-void details(void);
+void details_(void);
 /**
  * @brief Displays the Event available to purchase a ticket
  */
@@ -48,33 +48,33 @@ int ListofEvents(void);
 int event_select(void);
 
 /**
- * @brief admin can change prize of ticket after login with the appropriate login credentials .
+ * @brief Admin can change prize of ticket after login with appropriate login details .
  * 
  */
-int changepriceticket(int);
+int change_Price_Ticket(int);
 
 /**
- * @brief Customer can purchase a ticket 
+ * @brief User can Buy  ticket 
  */
 
-void show1(int choice,char name[10],int id1,int price);
+void event_show1(int choice,char name[10],int id1,int price);
 /**
- * @brief Customer can purchase a ticket 
+ * @brief User can purchase a ticket 
  */
-void show2(int choice,char name[10],int id1,int price);
+void event_show2(int choice,char name[10],int id1,int price);
 /**
- * @brief Customer can purchase a ticket 
+ * @brief User can purchase a ticket 
  */
-void show3(int choice,char name[10],int id1,int price);
+void event_show3(int choice,char name[10],int id1,int price);
 /**
- * @brief A customer can reserve the ticket
+ * @brief A User can reserve the ticket
  */
-void reserveticket(int *,int,int );
+void reserve_Ticket(int *,int,int );
 
 /**
- * @brief A customer can cancel the ticket  
+ * @brief A User can cancel the ticket  
  */
-void cancelticket(int *); 
+void cancel_ticket(int *); 
 
 
 #endif /* #define _FUNCTION_H__ */

@@ -3,14 +3,14 @@
 #include<string.h>
 
 struct event_details person[300];
-void details(void)
+void details_(void)
 {
 	int i;
 	int count =0;
-	char pass[10],pak[10]="admin";
+	char passWord[10],pak[10]="admin";
 	printf("Enter the password to see details: ");
-	scanf("%s",&pass);
-	if (strcmp(pass,pak)==0)
+	scanf("%s",&passWord);
+	if (strcmp(passWord,pak)==0)
 	{
 		for (i=0;i<count;i++)
 		{

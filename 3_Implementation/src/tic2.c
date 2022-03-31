@@ -3,7 +3,7 @@
 #include<string.h>
 
 struct event_details person[300];
-void show2(int choice,char name[10],int id1,int price)
+void event_show2(int choice,char name[10],int id1,int price)
 {
         int count =0;
 		system("cls");
@@ -18,6 +18,6 @@ void show2(int choice,char name[10],int id1,int price)
         printf("\t                                              seats No. : %d  \n",choice);
         printf("\t                                              price . : %d  \n\n",price);
         person[count].id=id1;
-       printf("\tThank's For Booking!!\n");
+       printf("\tThank's For Booking !!!\n");
         return;
 }

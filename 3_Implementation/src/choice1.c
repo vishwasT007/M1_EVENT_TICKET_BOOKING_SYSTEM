@@ -1,5 +1,5 @@
 #include "function.h"
-int enterchoice(void)
+int enter_choice(void)
 {
 	int choice;
 	printf("                 Welcome To Event Ticket Booking System\n");
