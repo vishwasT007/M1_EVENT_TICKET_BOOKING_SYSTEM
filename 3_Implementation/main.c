@@ -56,7 +56,7 @@ while(x!=3)
 
                 case 1:
                     printf("Enter the password to book the ticket: ");
-                    scanf("%s",&passWord);
+                    scanf("%s",passWord);
                     if (strcmp(passWord,pak)==0){
                         selection=ListofEvents();
                         reserve_Ticket(seat_number[selection-1],price,selection);
@@ -68,7 +68,7 @@ while(x!=3)
                     break;
                 case 2:
                     printf("Enter the password to book the ticket: ");
-                    scanf("%s",&passWord);
+                    scanf("%s",passWord);
                     if (strcmp(passWord,pak)==0){
                         selection=event_select();
                         cancel_ticket(seat_number[selection-1]);
