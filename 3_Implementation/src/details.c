@@ -9,7 +9,7 @@ void details(void)
 	int count =0;
 	char passWord[10],pak[10]="admin";
 	printf("Enter the password to see details: ");
-	scanf("%s",&passWord);
+	scanf("%s",passWord);
 	if (strcmp(passWord,pak)==0)
 	{
 		for (i=0;i<count;i++)
