@@ -13,10 +13,10 @@ int main()
 	for (i=0;i<3;i++)
 		*(seat_number+i)=(int *)calloc(101,sizeof(int ));
 	int x;
-	char pass[10],pak[10]="user";
+	char passWord[10],pak[10]="user";
 while(x!=3)
 	{
-        a:choice=enterchoice();
+        a:choice=enter_choice();
 		switch(choice)
 		{
 		    int y;
@@ -28,7 +28,7 @@ while(x!=3)
 	            scanf("%d", &ch);
 	            switch(ch){
             case 1:
-                price=changepriceticket(price);
+                price=change_Price_Ticket(price);
                 goto b;
 				break;
             case 2:
@@ -56,10 +56,10 @@ while(x!=3)
 
                 case 1:
                     printf("Enter the password to book the ticket: ");
-                    scanf("%s",&pass);
-                    if (strcmp(pass,pak)==0){
+                    scanf("%s",&passWord);
+                    if (strcmp(passWord,pak)==0){
                         selection=ListofEvents();
-                        reserveticket(seat_number[selection-1],price,selection);
+                        reserve_Ticket(seat_number[selection-1],price,selection);
                         count++;
                     }
                     else
@@ -68,10 +68,10 @@ while(x!=3)
                     break;
                 case 2:
                     printf("Enter the password to book the ticket: ");
-                    scanf("%s",&pass);
-                    if (strcmp(pass,pak)==0){
+                    scanf("%s",&passWord);
+                    if (strcmp(passWord,pak)==0){
                         selection=event_select();
-                        cancelticket(seat_number[selection-1]);
+                        cancel_ticket(seat_number[selection-1]);
                     }
                     else
                     printf("Invalid Password!\n");
