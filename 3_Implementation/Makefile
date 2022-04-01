@@ -55,12 +55,12 @@ analyze: test memcheck staticcheck coverage sanitize_check
 staticcheck:
 	cppcheck --enable=all -iunity .
 
-memcheck:
-	valgrind ./$(TEST_OUTPUT)
+#memcheck:
+	#valgrind ./$(TEST_OUTPUT)
 
-sanitize_check:
-	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
-	./$(TEST_OUTPUT)
+#sanitize_check:
+	#gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
+	#./$(TEST_OUTPUT)
 
-clean:
-	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
+#clean:
+	#$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
