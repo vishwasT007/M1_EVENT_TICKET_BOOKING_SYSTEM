@@ -12,7 +12,7 @@ int main()
 	seat_number=(int **)calloc(101,sizeof(int *));
 	for (i=0;i<3;i++)
 		*(seat_number+i)=(int *)calloc(101,sizeof(int ));
-	int x;
+	int x = 0;
 	char passWord[10],pak[10]="user";
 while(x!=3)
 	{
