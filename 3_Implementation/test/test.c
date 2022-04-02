@@ -18,10 +18,6 @@ void test_changepriceticket(void)
     
 }
 
-void test_enter_choice(void) {
-    TEST_ASSERT_EQUAL(1,enter_choice(1));
-}
-
 
 
 int main(void)
@@ -29,6 +25,5 @@ int main(void)
   UNITY_BEGIN();
   
   RUN_TEST(test_changepriceticket);
-  RUN_TEST(test_enter_choice);
   return UNITY_END();
 }
