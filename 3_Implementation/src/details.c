@@ -1,6 +1,6 @@
 #include "function.h"
 #include "eventdetails.c"
-#include<string.h>
+#include "string.h"
 
 struct event_details person[300];
 void details(void)
