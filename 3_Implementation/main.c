@@ -8,7 +8,7 @@
 int main()
 {
     int count = 0;
-	int **seat_number,choice,price=500,selection,i;
+	int **seat_number,choice,price=1300,select,i;
 	seat_number=(int **)calloc(101,sizeof(int *));
 	for (i=0;i<3;i++)
 		*(seat_number+i)=(int *)calloc(101,sizeof(int ));
@@ -22,8 +22,8 @@ while(x!=3)
 		    int y;
 		    int ch;
 			case 1:
-			    b:printf(" 1-- To edit price of ticket :   \n");
-                printf(" 2-- To view reserved tickets:   \n");
+			    b:printf(" 1-- To edit price of Event ticket :   \n");
+                printf(" 2-- To view reserved Event tickets:   \n");
                 printf(" 3-- Exit  System:        \n");
 	            scanf("%d", &ch);
 	            switch(ch){
@@ -47,19 +47,19 @@ while(x!=3)
 	        case 2:
                 c:
                 printf(" User login: \n");
-                printf("        1-- To Purchase Ticket:        \n");
-                printf("        2-- To Cancel the Ticket:       \n");
+                printf("        1-- To Purchase Event Ticket:        \n");
+                printf("        2-- To Cancel Event Ticket:       \n");
                 printf("        3-- Exit System       \n");
                 scanf("%d",&ch);
                 switch(ch){
 
 
                 case 1:
-                    printf("Enter the password to book the ticket: ");
+                    printf("Enter the password to book the Event ticket: ");
                     scanf("%s",passWord);
                     if (strcmp(passWord,pak)==0){
-                        selection=ListofEvents();
-                        reserve_Ticket(seat_number[selection-1],price,selection);
+                        select=ListofEvents();
+                        reserve_Ticket(seat_number[select-1],price,select);
                         count++;
                     }
                     else
@@ -67,11 +67,11 @@ while(x!=3)
                     goto c;
                     break;
                 case 2:
-                    printf("Enter the password to book the ticket: ");
+                    printf("Enter the password to book the Event ticket: ");
                     scanf("%s",passWord);
                     if (strcmp(passWord,pak)==0){
-                        selection=event_select();
-                        cancel_ticket(seat_number[selection-1]);
+                        select=event_select();
+                        cancel_ticket(seat_number[select-1]);
                     }
                     else
                     printf("Invalid Password!\n");
