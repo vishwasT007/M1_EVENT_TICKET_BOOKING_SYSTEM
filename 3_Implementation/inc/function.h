@@ -31,26 +31,26 @@
 
 
 /**
- * @brief login with respective to customer or admin
+ * @brief login With user Or admin
  */
 
 
 int enter_choice(void);
 /**
- * @brief login for admin
+ * @brief Admin Login
  * 
  */
 
 void details(void);
 /**
- * @brief Displays the Event available to purchase a ticket
+ * @brief Display The Available Events
  */
 
 int ListofEvents(void);
 int event_select(void);
 
 /**
- * @brief Admin can change prize of ticket after login with appropriate login details .
+ * @brief Admin can change prize of ticket after login with Correct login details .
  * 
  */
 int change_Price_Ticket(int);
@@ -61,23 +61,23 @@ int change_Price_Ticket(int);
 
 void event_show1(int choice,char name[10],int id1,int price);
 /**
- * @brief User can purchase a ticket 
+ * @brief User can Buy a ticket 
  */
 
 void event_show2(int choice,char name[10],int id1,int price);
 /**
- * @brief User can purchase a ticket 
+ * @brief User can Buy a ticket 
  */
 
 void event_show3(int choice,char name[10],int id1,int price);
 /**
- * @brief A User can reserve the ticket
+ * @brief A User can Reserve Ticket
  */
 
 void reserve_Ticket(int *,int,int );
 
 /**
- * @brief A User can cancel the ticket  
+ * @brief A User can cancel ticket  
  */
 void cancel_ticket(int *); 
 
