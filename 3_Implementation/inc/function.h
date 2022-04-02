@@ -10,6 +10,7 @@
  */
 #ifndef __FUNCTION_H__
 #define __FUNCTION_H__
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -39,6 +40,7 @@ int enter_choice(void);
  * @brief login for admin
  * 
  */
+
 void details(void);
 /**
  * @brief Displays the Event available to purchase a ticket
@@ -61,14 +63,17 @@ void event_show1(int choice,char name[10],int id1,int price);
 /**
  * @brief User can purchase a ticket 
  */
+
 void event_show2(int choice,char name[10],int id1,int price);
 /**
  * @brief User can purchase a ticket 
  */
+
 void event_show3(int choice,char name[10],int id1,int price);
 /**
  * @brief A User can reserve the ticket
  */
+
 void reserve_Ticket(int *,int,int );
 
 /**
