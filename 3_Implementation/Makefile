@@ -16,7 +16,6 @@ src/tic3.c
 
 
 TEST_SRC =src/price.c\
-src/choice1.c\
 src/../test/test.c\
 unity/unity.c 
   
