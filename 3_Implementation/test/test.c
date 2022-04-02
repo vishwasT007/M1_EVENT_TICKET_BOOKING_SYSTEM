@@ -19,7 +19,7 @@ void test_changepriceticket(void)
 }
 
 void test_enter_choice(void) {
-    TEST_ASSERT_EQUAL(1,enter_choice());
+    TEST_ASSERT_EQUAL(1,enter_choice(1));
 }
 
 
