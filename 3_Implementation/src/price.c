@@ -1,4 +1,5 @@
 #include "function.h"
+
 int change_Price_Ticket(int price)
 {
 	char passWord[10];
