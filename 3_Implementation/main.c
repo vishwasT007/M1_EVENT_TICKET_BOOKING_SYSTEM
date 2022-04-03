@@ -8,7 +8,11 @@
 int main()
 {
     int count = 0;
-	int **seat_number,choice,price=800,select,i;
+	int **seat_number;
+	int choice;
+	int price = 800;
+	int select;
+	int i;
 	seat_number=(int **)calloc(101,sizeof(int *));
 	for (i=0;i<3;i++)
 		*(seat_number+i)=(int *)calloc(101,sizeof(int ));
